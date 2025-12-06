@@ -1,0 +1,21 @@
+# --- Python / venv ---
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# --- VS Code ---
+.vscode/
+
+# --- Streamlit ---
+.streamlit/
+
+# --- Large raw datasets (keep them OUT of Git) ---
+nhcs2021ip_r.rds
+nhcs2021ip_stata.dta
+data/CDC_Wastewater_Data_for_SARS-CoV-2.csv
+data/nhcs2021ip.csv
+
+# Optional: ignore any other huge raw dumps
+data/*raw*.csv
+data/*raw*.rds
